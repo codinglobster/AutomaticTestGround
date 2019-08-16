@@ -1,0 +1,60 @@
+{
+  "name": "@author/eslint-config",
+  "version": "1.0.2",
+  "description": "Codinglobster eslint configuration",
+  "main": "index.js",
+  "engine": {
+    "node": ">=8.3.0"
+  },
+  "publishConfig": {
+    "registry": ""
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Codinglobster",
+  "dependencies": {
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-config-prettier": "^4.0.0"
+  },
+  "peerDependencies": {
+    "@typescript-eslint/eslint-plugin": "^1.6.0",
+    "@typescript-eslint/parser": "^1.6.0",
+    "eslint": "^5.8.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-import-resolver-typescript": "^1.1.1",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jsx-a11y": "^6.1.2",
+    "eslint-plugin-prefer-object-spread": "^1.2.1",
+    "eslint-plugin-prettier": "^3.0.0",
+    "eslint-plugin-react": "^7.11.0",
+    "eslint-plugin-react-hooks": "^1.0.1",
+    "eslint-plugin-redux-saga": "^1.0.0"
+  },
+  "peerDependenciesMeta": {
+    "@typescript-eslint/eslint-plugin": {
+      "optional": true
+    },
+    "@typescript-eslint/parser": {
+      "optional": true
+    },
+    "eslint-config-airbnb": {
+      "optional": true
+    },
+    "eslint-import-resolver-typescript": {
+      "optional": true
+    },
+    "eslint-plugin-jsx-a11y": {
+      "optional": true
+    },
+    "eslint-plugin-react": {
+      "optional": true
+    },
+    "eslint-plugin-react-hooks": {
+      "optional": true
+    },
+    "eslint-plugin-redux-saga": {
+      "optional": true
+    }
+  }
+}

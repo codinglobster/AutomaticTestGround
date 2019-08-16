@@ -1,0 +1,16 @@
+{
+  "name": "@codinglobster/prettierrc",
+  "version": "1.0.0",
+  "description": "Codinglobster prettierrc",
+  "main": "index.js",
+  "publishConfig": {
+    "registry": ""
+  },
+  "peerDependencies": {
+    "prettier": "1.16.4"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "codinglobster"
+}

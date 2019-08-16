@@ -1,0 +1,20 @@
+{
+  "packages": [
+    "packages/*"
+  ],
+  "command": {
+    "publish": {
+      "npmClient": "npm",
+      "verifyAccess": false
+    },
+    "version": {
+      "includeMergedTags": true
+    }
+  },
+  "npmClient": "yarn",
+  "npmClientArgs": [
+    "--no-lock-file"
+  ],
+  "useWorkspaces": true,
+  "version": "independent",
+}
